@@ -1,0 +1,31 @@
+
+# Python environment and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local market data and generated outputs
+data/
+logs/
+reports/
+History/
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite*
+history_meta.json
+
+# Credentials and secrets
+google_creds.json
+.env
+.env.*
+*credentials*
+*secret*
+*token*
+
+# Local tools and temporary files
+ngrok.exe
+Desktop - Shortcut*
+
